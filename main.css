@@ -1,0 +1,102 @@
+.marquee{
+    color: red;
+    text-shadow: 5px 5px 5px green;
+    text-align: center;
+    
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color:#5FBDFF ;
+}
+h2{
+    margin-left: 30px;
+}
+a:hover{
+    color: green;
+    text-decoration: none;
+    font-size: 23px;
+    
+
+}
+.navi{
+    color: white;
+   
+    text-decoration: none;
+    
+    position: relative;
+    top: 100px;
+    position:absolute;
+    
+}
+#food{
+    margin-left: 640px;
+    position: absolute;
+    font-size: 60px;
+    top:300px;
+    color: white;
+}
+#discover{
+    top:360px;
+    position: absolute;
+    margin-left: 450px;
+    font-size: 50px;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    float: left;
+    font-size: 21px;
+}
+.add_res{
+    margin-left: 702px;
+}
+.li{
+    margin-left: 72px;
+}
+input[name="search"]{
+    text-align: center;
+    border: 2px solid green;
+    width: 27%;
+    height: 36px;
+    border-radius: 27px;
+    box-shadow: 5px 5px 5px yellow;
+}
+
+.search{
+    text-align: center;
+}
+
+.restaurents{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.restaurent{
+    text-align: center;
+   
+}
+.image{
+    
+    height: 360px; 
+    width: 90%;
+}
+.image:hover{
+    height: 370px;
+    width: 91%;
+}
+#about{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+#delivery{
+    text-align: center;
+}
+body{
+    background-image: radial-gradient(red,blueviolet,antiquewhite,aqua);
+    background-repeat:no-repeat ;
+    background-attachment:fixed;
+}

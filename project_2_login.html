@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        div{
+margin-top: 250px;
+margin-left: 540px;
+border: 2px solid #ff0000;
+height:360px;
+width:18%;
+padding-left: 90px;
+padding-top: 30px;
+color: #392467;
+background-color: green;
+box-shadow:3px 3px 3px #2B2A4C;
+        }
+        h2{
+            padding-left: 30px;
+            text-shadow: 2px 2px 2px yellow;
+
+        }
+    body{
+        background-color: #F1EAFF;
+    }
+    h1{
+        border: 2px solid red;
+        height: 40px;
+        width: 110px;
+        padding-top: 9px;
+        background-color: green;
+        text-align: center;
+        animation: animation;
+            animation-duration: 5s;
+            position: relative;
+            animation-iteration-count: infinite;
+            text-shadow: 3px 3px 2px violet;
+            box-shadow:3px 3px 2px #5FBDFF;
+    }   
+    @keyframes animation{
+        0%{background-color:red ;margin-top: 0px;margin-left: 300px;}
+        50%{background-color: blue;margin-top: 0px;margin-left: 900px;}
+        100%{background-color: yellowgreen;margin-top: 0px;margin-left: 300px;}
+        }
+    </style>
+</head>
+<body>
+    <h1>LOGIN</h1>
+    <div>
+    
+            
+        <form action="login_after_signin.html">
+        <caption><h2>Login Details</h2> </caption>
+        <label for="email">Email</label><br><br>
+        <input type="email" id="email" required placeholder="Enter the email" pattern="[a-z 0-9.]+@[a-z]+.[a-z]{2,}"><br><br>
+        <label for="password">Password</label><br><br>
+        <input type="password" id="password" placeholder="Gangadhar@1234" required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_+=]).{8,}"><br><br>
+        <br>
+        <input type="submit">
+        
+        
+    </form>
+</fieldset>
+</div>
+</body>
+</html>
